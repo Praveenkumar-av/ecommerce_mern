@@ -1,0 +1,19 @@
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/signin.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4",
+    "mocha-junit-reporter": "^2.2.1",
+    "selenium-webdriver": "^4.38.0"
+  }
+}
